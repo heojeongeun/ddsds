@@ -1,0 +1,198 @@
+<!DOCTYPE html><!--22161127 허정은-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <style>
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      a:link {
+        text-decoration: none;
+        color:white;
+      }
+      a:visited {
+        text-decoration: none;
+        color:white;
+      }
+      a:hover {
+        text-decoration: none;
+        color:deeppink;
+      }
+      a:active {
+        text-decoration: none;
+        color:deeppink;
+      }
+
+      body {
+        font-family: '나눔스퀘어OTF_ac'
+        font-size: 14px;
+        background-color: #ED78A5;
+      }
+
+      li {
+        list-style-type: none;
+      }
+
+      .clear {
+        clear: both;
+      }
+
+      header {
+        width: 1140px;
+        height: 100px;
+        margin: 0 auto;
+      }
+
+      #logo {
+        float: left;
+        margin: 38px 0 0 20px;
+      }
+
+      #menus {
+        float: right;
+      }
+
+      #main_menu {
+        margin-top: 50px;
+        font-family: 'Neo둥근모';
+        font-size: 20px;
+        color: black;
+      }
+
+      #main_menu li {
+        display: inline;
+        margin-left: 80px;
+      }
+
+      #main_img {
+        width: 100%;
+        height: 169px;
+        background-image: url('./img/단체2.png');
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-color: #dfdfdf;
+        margin-top: 20px;
+      }
+
+      #contents {
+        width: 1140px;
+        height: 430px;
+        margin: 0 auto;
+      }
+
+      #main_contents {
+        width: 1140px;
+        float: 0 auto;
+        margin-top: 25px;
+        font-size: 13px;
+        text-align: center;
+      }
+
+      #main_contents h3 {
+        font-size: 22px;
+        padding-bottom: 8px;
+        border-bottom: solid 1px #2c2a29;
+        text-align: center;
+      }
+
+      #main_contents p {
+        margin-top: 30px;
+        line-height: 180%
+        text-align: center;
+      }
+
+      #main_contents #figure {
+        margin-top: 30px;
+        text-align: center;
+      }
+
+      #main_contents li {
+        padding: 5px;
+      }
+
+      footer {
+        width: 100%;
+        height: 150px;
+        margin-top: 30px;
+        background-color: #2c2a29;
+      }
+
+      #footer_box {
+        width: 1140px;
+        height: 150px;
+        margin: 0 auto;
+      }
+
+      #footer_logo {
+        float: left;
+        margin: 50px 0 0 30px;
+      }
+
+      #address {
+        float: right;
+        margin: 50px 30px 0 0;
+        color: white;
+        font-size: 12px;
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+    <header>
+
+      <div id="logo">
+        <a href="index.html"><img src="./img/pinktapelogo1.png"></a>
+      </div>
+
+      <nav id="menus">
+
+        <ul id="main_menu">
+          <a href="sub1.html"><li>Album</li></a>
+          <a href="sub2.html"><li>Music</li></a>
+          <a href="sub3.html"><li>Photo</li></a>
+        </ul>
+
+      </nav>
+    </header>
+
+    <section id="main_img"></section>
+
+    <section id="contents">
+
+      <div id="main_contents">
+        <h3>Track list</h3><br><br>
+        <img src="./img/tape01.png"><br><br>
+        <audio src="./audio/첫사랑니.mp3" controls autoplay loop></audio>
+        <p>신비롭고 에스닉한 분위기의 기타 사운드와 흥겨운 퍼커션 리듬이 인상적인 팝 댄스곡.<br>
+          마칭 밴드의 북소리, 발소리 등이 곡의 리듬감을 더하며, ‘럼펌펌펌’이라는 가사와 어우러져 흡사 캐롤 ‘북 치는 소년’을 떠오르게 한다.<br>
+          가사에는 첫사랑을 사랑니에 비유, 뒤늦게 찾아온 진짜 첫사랑에 대한 이야기를 다른 치아를 밀어내고<br>
+          마지막에 자라나는 사랑니의 특성에 빗대어 독특하게 풀어냈다.</p><br><br>
+
+      </div>
+
+    </section>
+
+    <div class="clear"></div> <!--float 속성 해제-->
+
+    <footer>
+      <div id="footer_box">
+        <div id="footer_logo">
+          <img src="./img/pinktapelogo1.png">
+        </div>
+        <ul id="address">
+          <li>경기도 의왕시 계원대학로 66 우:123-1234</li>
+          <li>TEL: 031-123-1234 | Email: 22161127@gmail.com</li>
+          <li>COPYRIGHT ⒞ jeongeun ALL RIGHT RESERVED</li>
+
+        </ul>
+      </div>
+    </footer>
+
+  </body>
+</html>
